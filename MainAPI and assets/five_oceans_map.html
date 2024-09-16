@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b68397593facd8b272dd33f3abc4415f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b68397593facd8b272dd33f3abc4415f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b68397593facd8b272dd33f3abc4415f = L.map(
+                "map_b68397593facd8b272dd33f3abc4415f",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30b1d22166c15f6138a59a57f8585cef = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_30b1d22166c15f6138a59a57f8585cef.addTo(map_b68397593facd8b272dd33f3abc4415f);
+        
+    
+        function geo_json_b7acf9673d548123dc17a316aead0f80_styler(feature) {
+            switch(feature.properties.name) {
+                default:
+                    return {"color": "black", "fillColor": "blue", "fillOpacity": 0.5, "weight": 1};
+            }
+        }
+
+        function geo_json_b7acf9673d548123dc17a316aead0f80_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b7acf9673d548123dc17a316aead0f80 = L.geoJson(null, {
+                onEachFeature: geo_json_b7acf9673d548123dc17a316aead0f80_onEachFeature,
+            
+                style: geo_json_b7acf9673d548123dc17a316aead0f80_styler,
+        });
+
+        function geo_json_b7acf9673d548123dc17a316aead0f80_add (data) {
+            geo_json_b7acf9673d548123dc17a316aead0f80
+                .addData(data);
+        }
+            geo_json_b7acf9673d548123dc17a316aead0f80_add({"features": [{"geometry": {"coordinates": [[[-168.91254949463897, 65.91567762335995], [-114.90880149663067, 65.1828546647792], [-94.7082595531834, 63.64517893717931], [-95.95526260084922, 57.542394648575666], [-83.88030099987449, 53.27471281525812], [-79.25376054658769, 50.30794861374268], [-73.4131394519421, 58.0798061054933], [-67.10220490822948, 56.79588508614606], [-68.46579680229463, 65.47610706326063], [-17.7666350650006, 64.4700566732638], [16.76035135995525, 77.50874773559912], [31.12628110611311, 67.78470667916403], [43.34523532543696, 64.35278197965363], [178.12792944338366, 66.62811530724139], [174.88180251454173, 84.89600837545939], [-168.91254949463897, 84.84323129068551], [-168.91254949463897, 65.91567762335995]]], "type": "Polygon"}, "properties": {"name": "Artic Ocean"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-97.58372428171451, 30.326649650502176], [-99.24854223032422, 18.36502689475583], [-68.82534717836295, 5.159415438532108], [-59.74064310034626, -26.57344070378317], [-70.51552468124996, -49.92591216409241], [-64.17735904542465, -60.46101868628092], [20.75406047463585, -60.46101868628092], [22.65551016538376, -26.005183846752352], [20.75406047463585, 4.317222578984001], [28.66710445987158, 30.04744723928829], [42.69651376524567, 29.338895656407132], [61.29363772818414, 34.99649350352459], [30.751423777005414, 67.5140042573808], [16.37370381111117, 77.11827060643978], [-17.839661654987083, 63.77423930277277], [-30.691450698915077, 64.06873791635758], [-67.75085191755257, 65.1714637435727], [-66.76156576904206, 56.46838256298321], [-62.28171407421925, 52.29468331140557], [-70.742101429394, 48.545199367785], [-72.04975739743116, 43.179161210901476], [-77.5435551559983, 38.84379707579366], [-82.85630052733119, 31.205839243095546], [-97.58372428171451, 30.326649650502176]]], "type": "Polygon"}, "properties": {"name": "Atlantic Ocean"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-178.79253955981628, 65.13477226317482], [-178.49583985301322, 28.388230363237284], [-177.02039780669335, -46.745417305522444], [-176.72529535861483, -58.025649943298326], [-64.66727154473476, -60.51147476202577], [-71.18959252866702, -50.08214198753714], [-60.5479109233042, -26.870134092635745], [-69.3734245204411, 4.876030452189553], [-99.4442769261261, 18.143929678502403], [-117.59421209255929, 36.88058136899906], [-119.67012375534385, 43.33081780408007], [-134.32364243663042, 60.12497998790912], [-159.12995321818133, 65.32207320046348], [-178.79253955981628, 65.13477226317482]]], "type": "Polygon"}, "properties": {"name": "Pacific Ocean America"}, "type": "Feature"}, {"geometry": {"coordinates": [[[22.063290850326865, -60.24878667085303], [147.92260533399315, -58.27667385791023], [143.39932737748182, -23.187323744106237], [117.76741895725502, -8.94866474914268], [105.70534440656007, -6.601280227483144], [103.55140252250709, 2.214676607551638], [99.24351875440101, 9.069725402787867], [99.60519883918352, 22.721085839862823], [62.55739827051735, 34.41699621980541], [45.110469009690036, 28.732381576100707], [30.679058386536866, 28.921084369334196], [23.571050169163925, -20.573174040897683], [22.063290850326865, -60.24878667085303]]], "type": "Polygon"}, "properties": {"name": "Indian Ocean"}, "type": "Feature"}, {"geometry": {"coordinates": [[[65.42663117477474, 37.539717127011315], [101.18206645004875, 24.285371709718476], [101.18206645004875, 9.707248858088462], [105.27455602974942, 4.364941846406779], [106.78231534858662, -5.74470726736952], [119.05978408768681, -8.735830582823311], [144.90708669631897, -23.385172065814572], [149.214970464423, -58.50246676475268], [181.3139967788385, -58.35170233293042], [179.49374045844746, 65.53298722359315], [150.93812397166545, 65.23213276813948], [65.42663117477474, 37.539717127011315]]], "type": "Polygon"}, "properties": {"name": "Pacific Ocean Asia"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_b7acf9673d548123dc17a316aead0f80.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["name"];
+    let aliases = ["name"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumtooltip", "sticky": true});
+                     
+    
+            geo_json_b7acf9673d548123dc17a316aead0f80.addTo(map_b68397593facd8b272dd33f3abc4415f);
+        
+    
+            var layer_control_557be5f10129ea1037fc6fa5ed693326_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_30b1d22166c15f6138a59a57f8585cef,
+                },
+                overlays :  {
+                    "Five Oceans" : geo_json_b7acf9673d548123dc17a316aead0f80,
+                },
+            };
+            let layer_control_557be5f10129ea1037fc6fa5ed693326 = L.control.layers(
+                layer_control_557be5f10129ea1037fc6fa5ed693326_layers.base_layers,
+                layer_control_557be5f10129ea1037fc6fa5ed693326_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_b68397593facd8b272dd33f3abc4415f);
+
+        
+</script>
+</html>
