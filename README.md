@@ -11,4 +11,7 @@ This shows the order in which the notebooks were created. That explains the evol
 2. Noaa buoy Analysis.ipynb: This notebook contains the analysis of the data from the NOAA buoys and the exploration of available libraries to do so
 3. OneBuoySong.ipynb: This notebook shows how to create a song using one buoy and contains the elements to start making music out of the data.
 4. SeveralBuoysDataAnalysis.ipynb: This notebook explores the analysis of several buoys. Start creating functions to transform the data into something usable for creating music.
-5.  IndianOceanSong.ipynb: 
+5.  IndianOceanSong.ipynb:
+6.  MemoryIndianOceanSong.ipynb: a simplified version of the previous one to jump straith into creating music. Playing more with the generation and randomness of the generation
+7.  AllOceanAnalysis.iptnb Doing data analysis previosly done only for indic ocean to know the ranges and variables
+8.   
