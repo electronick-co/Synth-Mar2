@@ -99,6 +99,7 @@ Station,Lat,Lon,Elevation,Name,Owner,Program,Ocean
 44063,38.963,-76.448,0.0,"Annapolis, MD",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
 44064,36.998,-76.087,0.0,"First Landing, VA",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
 44072,37.201,-76.266,0.0,"York Spit, VA   ",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44073,43.02,-70.54,0.0,CO2 Gulf of Maine Buoy,University of New Hampshire,IOOS Partners,Atlantic Ocean
 44078,59.94,-39.52,0.0,OOI Irminger Sea Surface Mooring,NSF Ocean Observatories Initiative,IOOS Partners,Atlantic Ocean
 44079,36.175,-74.827,,OOI Mid-Atlantic Bright Northern Surface Mooring,NSF Ocean Observatories Initiative,IOOS Partners,Atlantic Ocean
 44084,38.537,-75.044,0.0,"Bethany Beach, DE (263)",SCRIPPS,IOOS Partners,Atlantic Ocean
@@ -216,7 +217,6 @@ Station,Lat,Lon,Elevation,Name,Owner,Program,Ocean
 46222,33.618,-118.317,0.0,"San Pedro, CA (092)",SCRIPPS,IOOS Partners,Pacific Ocean America
 46224,33.178,-117.472,0.0,"Oceanside Offshore, CA (045)",SCRIPPS,IOOS Partners,Pacific Ocean America
 46225,32.933,-117.391,0.0,"Torrey Pines Outer, CA (100)",SCRIPPS,IOOS Partners,Pacific Ocean America
-46229,43.772,-124.549,0.0,"UMPQUA OFFSHORE, OR (139)",SCRIPPS,IOOS Partners,Pacific Ocean America
 46232,32.517,-117.425,0.0,"Point Loma South, CA  (191)",SCRIPPS,IOOS Partners,Pacific Ocean America
 46235,32.57,-117.169,,"Imperial Beach Nearshore, CA (155)",SCRIPPS,IOOS Partners,Pacific Ocean America
 46237,37.788,-122.634,0.0,"San Francisco Bar, CA  (142)",SCRIPPS,IOOS Partners,Pacific Ocean America

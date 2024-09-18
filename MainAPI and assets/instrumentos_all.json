@@ -1,263 +1,170 @@
 [
   {
     "name": "Piano",
-    "low_note": "A0",
+    "low_note": "C1",
     "high_note": "C8",
-    "low_midi": 21,
-    "high_midi": 108,
-    "low_freq": 27.50,
-    "high_freq": 4186.01
+    "low_midi": 24,
+    "high_midi": 108
   },
   {
-    "name": "Violín",
+    "name": "Violins 1",
     "low_note": "G3",
-    "high_note": "A7",
+    "high_note": "C7",
     "low_midi": 55,
-    "high_midi": 105,
-    "low_freq": 196.00,
-    "high_freq": 3520.00
+    "high_midi": 96
+  },
+  {
+    "name": "Violins 2",
+    "low_note": "G3",
+    "high_note": "C7",
+    "low_midi": 55,
+    "high_midi": 96
   },
   {
     "name": "Viola",
     "low_note": "C3",
-    "high_note": "E6",
+    "high_note": "F6",
     "low_midi": 48,
-    "high_midi": 88,
-    "low_freq": 130.81,
-    "high_freq": 1318.51
+    "high_midi": 89
   },
   {
-    "name": "Violonchelo",
+    "name": "Celli",
     "low_note": "C2",
-    "high_note": "G5",
+    "high_note": "A5",
     "low_midi": 36,
-    "high_midi": 79,
-    "low_freq": 65.41,
-    "high_freq": 783.99
+    "high_midi": 81
   },
   {
-    "name": "Contrabajo",
-    "low_note": "E1",
-    "high_note": "C5",
-    "low_midi": 28,
-    "high_midi": 72,
-    "low_freq": 41.20,
-    "high_freq": 523.25
+    "name": "Basses",
+    "low_note": "C1",
+    "high_note": "F3",
+    "low_midi": 24,
+    "high_midi": 53
   },
   {
-    "name": "Arpa",
-    "low_note": "Cb1",
-    "high_note": "G#7",
-    "low_midi": 23,
-    "high_midi": 103,
-    "low_freq": 32.70,
-    "high_freq": 3322.44
+    "name": "Horns",
+    "low_note": "A1",
+    "high_note": "F5",
+    "low_midi": 33,
+    "high_midi": 77
   },
   {
-    "name": "Flauta",
-    "low_note": "C4",
-    "high_note": "C7",
-    "low_midi": 60,
-    "high_midi": 96,
-    "low_freq": 261.63,
-    "high_freq": 2093.00
-  },
-  {
-    "name": "Flautín",
-    "low_note": "D5",
-    "high_note": "C8",
-    "low_midi": 74,
-    "high_midi": 108,
-    "low_freq": 587.33,
-    "high_freq": 4186.01
-  },
-  {
-    "name": "Oboe",
-    "low_note": "Bb3",
-    "high_note": "A6",
-    "low_midi": 58,
-    "high_midi": 93,
-    "low_freq": 233.08,
-    "high_freq": 1760.00
-  },
-  {
-    "name": "Corno Inglés",
+    "name": "Trumpets",
     "low_note": "E3",
-    "high_note": "G5",
-    "low_midi": 52,
-    "high_midi": 79,
-    "low_freq": 164.81,
-    "high_freq": 783.99
-  },
-  {
-    "name": "Clarinete",
-    "low_note": "D3",
-    "high_note": "Bb6",
-    "low_midi": 50,
-    "high_midi": 94,
-    "low_freq": 146.83,
-    "high_freq": 1864.66
-  },
-  {
-    "name": "Clarinete Bajo",
-    "low_note": "Eb2",
-    "high_note": "G5",
-    "low_midi": 39,
-    "high_midi": 79,
-    "low_freq": 77.78,
-    "high_freq": 783.99
-  },
-  {
-    "name": "Fagot",
-    "low_note": "Bb1",
-    "high_note": "E5",
-    "low_midi": 34,
-    "high_midi": 76,
-    "low_freq": 58.27,
-    "high_freq": 659.25
-  },
-  {
-    "name": "Contrafagot",
-    "low_note": "Bb0",
-    "high_note": "Bb3",
-    "low_midi": 22,
-    "high_midi": 58,
-    "low_freq": 29.14,
-    "high_freq": 233.08
-  },
-  {
-    "name": "Trompeta",
-    "low_note": "F#3",
     "high_note": "D6",
-    "low_midi": 54,
-    "high_midi": 86,
-    "low_freq": 184.99,
-    "high_freq": 1174.66
+    "low_midi": 52,
+    "high_midi": 86
   },
   {
-    "name": "Trompa",
-    "low_note": "F#2",
-    "high_note": "C6",
-    "low_midi": 42,
-    "high_midi": 84,
-    "low_freq": 92.50,
-    "high_freq": 1046.50
+    "name": "Tenor Trombones",
+    "low_note": "G1",
+    "high_note": "D5",
+    "low_midi": 31,
+    "high_midi": 74
   },
   {
-    "name": "Trombón",
-    "low_note": "E2",
-    "high_note": "Bb4",
-    "low_midi": 40,
-    "high_midi": 70,
-    "low_freq": 82.41,
-    "high_freq": 466.16
-  },
-  {
-    "name": "Trombón Bajo",
-    "low_note": "C2",
-    "high_note": "F4",
-    "low_midi": 36,
-    "high_midi": 65,
-    "low_freq": 65.41,
-    "high_freq": 349.23
+    "name": "Bass Trombones",
+    "low_note": "E1",
+    "high_note": "G4",
+    "low_midi": 28,
+    "high_midi": 67
   },
   {
     "name": "Tuba",
     "low_note": "D1",
-    "high_note": "G4",
+    "high_note": "E4",
     "low_midi": 26,
-    "high_midi": 67,
-    "low_freq": 36.71,
-    "high_freq": 391.99
+    "high_midi": 64
   },
   {
-    "name": "Timbales",
-    "low_note": "D2",
-    "high_note": "C4",
-    "low_midi": 38,
-    "high_midi": 60,
-    "low_freq": 73.42,
-    "high_freq": 261.63
-  },
-  {
-    "name": "Xilófono",
-    "low_note": "F3",
+    "name": "Flutes",
+    "low_note": "C4",
     "high_note": "C7",
-    "low_midi": 65,
-    "high_midi": 96,
-    "low_freq": 349.23,
-    "high_freq": 2093.00
+    "low_midi": 60,
+    "high_midi": 96
+  },
+  {
+    "name": "Piccolo",
+    "low_note": "D5",
+    "high_note": "C8",
+    "low_midi": 74,
+    "high_midi": 108
+  },
+  {
+    "name": "Oboes",
+    "low_note": "Bb3",
+    "high_note": "F6",
+    "low_midi": 58,
+    "high_midi": 89
+  },
+  {
+    "name": "Clarinets",
+    "low_note": "D3",
+    "high_note": "E6",
+    "low_midi": 50,
+    "high_midi": 88
+  },
+  {
+    "name": "Bassons",
+    "low_note": "Bb1",
+    "high_note": "D5",
+    "low_midi": 34,
+    "high_midi": 74
+  },
+  {
+    "name": "Harp Plucks",
+    "low_note": "C1",
+    "high_note": "G#7",
+    "low_midi": 24,
+    "high_midi": 104
+  },
+  {
+    "name": "Celeste",
+    "low_note": "C3",
+    "high_note": "C8",
+    "low_midi": 48,
+    "high_midi": 108
+  },
+  {
+    "name": "Percussion",
+    "low_note": "C3",
+    "high_note": "D5",
+    "low_midi": 48,
+    "high_midi": 74
+  },
+  {
+    "name": "Tuned Percussion",
+    "low_note": "C3",
+    "high_note": "D5",
+    "low_midi": 48,
+    "high_midi": 74
+  },
+  {
+    "name": "Tubular Bells",
+    "low_note": "C#4",
+    "high_note": "G5",
+    "low_midi": 61,
+    "high_midi": 79
   },
   {
     "name": "Marimba",
     "low_note": "C2",
     "high_note": "C7",
     "low_midi": 36,
-    "high_midi": 96,
-    "low_freq": 65.41,
-    "high_freq": 2093.00
+    "high_midi": 96
   },
   {
-    "name": "Vibráfono",
-    "low_note": "F3",
-    "high_note": "F6",
+    "name": "Xylophone",
+    "low_note": "F4",
+    "high_note": "C8",
     "low_midi": 65,
-    "high_midi": 89,
-    "low_freq": 349.23,
-    "high_freq": 1396.91
+    "high_midi": 108
   },
   {
     "name": "Glockenspiel",
-    "low_note": "G5",
+    "low_note": "F5",
     "high_note": "C8",
-    "low_midi": 79,
-    "high_midi": 108,
-    "low_freq": 783.99,
-    "high_freq": 4186.01
-  },
-  {
-    "name": "Celesta",
-    "low_note": "C3",
-    "high_note": "C8",
-    "low_midi": 48,
-    "high_midi": 108,
-    "low_freq": 130.81,
-    "high_freq": 4186.01
-  },
-  {
-    "name": "Saxofón Alto",
-    "low_note": "Db3",
-    "high_note": "Ab5",
-    "low_midi": 49,
-    "high_midi": 80,
-    "low_freq": 138.59,
-    "high_freq": 830.61
-  },
-  {
-    "name": "Saxofón Tenor",
-    "low_note": "Ab2",
-    "high_note": "Eb5",
-    "low_midi": 44,
-    "high_midi": 75,
-    "low_freq": 103.83,
-    "high_freq": 622.25
-  },
-  {
-    "name": "Saxofón Barítono",
-    "low_note": "Db2",
-    "high_note": "Ab4",
-    "low_midi": 37,
-    "high_midi": 68,
-    "low_freq": 69.30,
-    "high_freq": 415.30
-  },
-  {
-    "name": "Órgano",
-    "low_note": "C2",
-    "high_note": "C7",
-    "low_midi": 36,
-    "high_midi": 96,
-    "low_freq": 65.41,
-    "high_freq": 2093.00
+    "low_midi": 77,
+    "high_midi": 108
   }
 ]
