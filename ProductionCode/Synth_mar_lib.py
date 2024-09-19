@@ -216,7 +216,7 @@ def create_midi_progression(music_base_dict, channel_data, main_key, mode, octav
     # Process each channel
     for channel in channel_data:
         buoy = channel['buoy']
-        print(buoy)
+        # print(buoy)
         variable = channel['variable']
         instrument_name = channel['instrument']
         
@@ -263,7 +263,7 @@ def create_midi_progression(music_base_dict, channel_data, main_key, mode, octav
         # Map data to MIDI notes
         midi_mapped = map_to_midi(data, mode=mode, midi_base=midi_base, octaves=octaves)
          
-        print(midi_mapped)
+        # print(midi_mapped)
         
         # Create DataFrame for this channel
         df = pd.DataFrame({f"{instrument_name}_{variable}": midi_mapped})
@@ -275,3 +275,116 @@ def create_midi_progression(music_base_dict, channel_data, main_key, mode, octav
         output_list.append(df)
     
     return output_list
+
+def play_midi_progression(progression, tempo, outports, channel_data, instruments):
+    delay = 60 / tempo  # seconds per beat
+    current_notes = {}
+
+    # Create a mapping of instrument names to their configurations
+    instrument_config = {inst['name']: inst for inst in instruments}
+
+    max_length = max(len(df) for df in progression)
+
+    for i in range(max_length):
+        for idx, df in enumerate(progression):
+            if i < len(df):
+                column_name = df.columns[0]
+                note = df.iloc[i][column_name]
+                
+                instrument_name = channel_data[idx]['instrument']
+                instrument = instrument_config[instrument_name]
+                midi_port = outports[instrument['midi']]
+                channel = instrument['channel'] - 1  # MIDI channels are 0-indexed
+                # print(f"MIDI Port: {instrument['midi']}, Channel: {channel}, Instrument: {instrument_name}")
+
+
+                if pd.notna(note) and not np.isnan(note):
+                    try:
+                        note = int(note)
+                    
+                        if (midi_port, channel) in current_notes and current_notes[(midi_port, channel)] != note:
+                            msg_off = mido.Message('note_off', note=current_notes[(midi_port, channel)], velocity=64, channel=channel)
+                            midi_port.send(msg_off)
+                        
+                        if (midi_port, channel) not in current_notes or current_notes[(midi_port, channel)] != note:
+                            msg_on = mido.Message('note_on', note=note, velocity=64, channel=channel)
+                            midi_port.send(msg_on)
+                            current_notes[(midi_port, channel)] = note
+                    except ValueError:
+                        pass
+                
+                elif (midi_port, channel) in current_notes:
+                    msg_off = mido.Message('note_off', note=current_notes[(midi_port, channel)], velocity=64, channel=channel)
+                    midi_port.send(msg_off)
+                    del current_notes[(midi_port, channel)]
+
+        time.sleep(delay)
+
+    for (midi_port, channel), note in current_notes.items():
+        msg_off = mido.Message('note_off', note=note, velocity=64, channel=channel)
+        midi_port.send(msg_off)
+    
+ 
+
+def create_random_channel_data(n, filtered_availability, instruments):
+    channel_data = []
+    
+    # Get unique buoys from filtered_availability index
+    buoys = filtered_availability.index.unique().tolist()
+    
+    # Get list of instrument names
+    instrument_names = [instrument['name'] for instrument in instruments]
+    
+    used_instruments = set()
+    used_buoy_variables = {}
+    
+    while len(channel_data) < n:
+        if not buoys or not instrument_names:
+            break  # Exit if we run out of buoys or instruments
+        
+        # Randomly select a buoy
+        buoy = random.choice(buoys)
+        
+        # Get variables available for this buoy that haven't been used
+        available_variables = filtered_availability.loc[buoy].index[filtered_availability.loc[buoy] == 1].tolist()
+        available_variables = [v for v in available_variables if v not in used_buoy_variables.get(buoy, set())]
+        
+        if not available_variables:
+            buoys.remove(buoy)  # Remove buoy if all its variables have been used
+            continue
+        
+        # Randomly select a variable
+        variable = random.choice(available_variables)
+        
+        # Select an unused instrument
+        available_instruments = [i for i in instrument_names if i not in used_instruments]
+        if not available_instruments:
+            break  # Exit if all instruments have been used
+        
+        instrument = random.choice(available_instruments)
+        
+        # Create channel data entry
+        channel = {
+            "buoy": buoy,
+            "variable": variable,
+            "instrument": instrument
+        }
+        
+        channel_data.append(channel)
+        
+        # Update used instruments and buoy variables
+        used_instruments.add(instrument)
+        if buoy not in used_buoy_variables:
+            used_buoy_variables[buoy] = set()
+        used_buoy_variables[buoy].add(variable)
+    
+    return channel_data
+ 
+
+def all_notes_off(outports):
+    for outport in outports:
+        for channel in range(16):
+            for note in range(128):  # MIDI notes range from 0 to 127
+                msg_off = mido.Message('note_off', note=note, velocity=0, channel=channel)
+                outport.send(msg_off)
+        outport.close()
