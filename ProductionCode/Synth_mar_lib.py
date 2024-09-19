@@ -203,7 +203,7 @@ def map_to_midi(df_column, mode='Ionian', midi_base=0, octaves=2):
 
 def create_midi_progression(music_base_dict, channel_data, main_key, mode, octaves=5):
     # Load instrument data
-    with open('../MainApi and assets/instrumentos_all.json', 'r', encoding='utf-8') as f:
+    with open('BBCOrchestaInstruments.json', 'r') as f:
         instruments = json.load(f)
     
     # Convert main_key to MIDI base note
@@ -275,96 +275,3 @@ def create_midi_progression(music_base_dict, channel_data, main_key, mode, octav
         output_list.append(df)
     
     return output_list
-
-def play_midi_progression(progression, tempo, outport):
-    # Calculate delay based on tempo (beats per minute)
-    delay = 60 / tempo  # seconds per beat
-
-    # Initialize dictionaries to keep track of currently playing notes for each channel
-    current_notes = {}
-
-    # Determine the length of the progression
-    max_length = max(len(df) for df in progression)
-
-    for i in range(max_length):
-        for channel, df in enumerate(progression):
-            if i < len(df):
-                column_name = df.columns[0]  # Get the name of the only column
-                note = df.iloc[i][column_name]
-                
-                if pd.notna(note) and not np.isnan(note):
-                    try:
-                        note = int(note)
-                    
-                        # If there's a currently playing note for this channel and it's different
-                        if channel in current_notes and current_notes[channel] != note:
-                            # Send note off for the previous note
-                            msg_off = mido.Message('note_off', note=current_notes[channel], velocity=64, channel=channel)
-                            outport.send(msg_off)
-                        
-                        # If it's a new note or a different note from the previous one
-                        if channel not in current_notes or current_notes[channel] != note:
-                            # Send note on for the new note
-                            msg_on = mido.Message('note_on', note=note, velocity=64, channel=channel)
-                            outport.send(msg_on)
-                            current_notes[channel] = note
-                    except ValueError:
-                        # If the note can't be converted to an integer, ignore it
-                        pass
-                
-                elif channel in current_notes:
-                    # If there's no valid note and there was a note playing, stop it
-                    msg_off = mido.Message('note_off', note=current_notes[channel], velocity=64, channel=channel)
-                    outport.send(msg_off)
-                    del current_notes[channel]
-
-        # Wait for the duration of one beat
-        time.sleep(delay)
-
-    # After the progression ends, turn off any remaining notes
-    for channel, note in current_notes.items():
-        msg_off = mido.Message('note_off', note=note, velocity=64, channel=channel)
-        outport.send(msg_off)
-    
-    
-    
-
-def create_random_channel_data(n, filtered_availability, instruments):
-    channel_data = []
-    
-    # Get unique buoys from filtered_availability index
-    buoys = filtered_availability.index.unique()
-    
-    # Get list of instrument names
-    instrument_names = [instrument['name'] for instrument in instruments]
-    
-    for _ in range(n):
-        # Randomly select a buoy
-        buoy = random.choice(buoys)
-        
-        # Get variables available for this buoy
-        available_variables = filtered_availability.loc[buoy].index[filtered_availability.loc[buoy] == 1].tolist()
-        
-        # Randomly select a variable
-        variable = random.choice(available_variables)
-        
-        # Randomly select an instrument
-        instrument = random.choice(instrument_names)
-        
-        # Create channel data entry
-        channel = {
-            "buoy": buoy,
-            "variable": variable,
-            "instrument": instrument
-        }
-        
-        channel_data.append(channel)
-    
-    return channel_data
-
-
-def all_notes_off(outport):
-    for channel in range(16):
-        msg = mido.Message('control_change', channel=channel, control=123, value=0)
-        outport.send(msg)
-    outport.close()
