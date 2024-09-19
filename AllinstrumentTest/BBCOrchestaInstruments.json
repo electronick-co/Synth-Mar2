@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Piano",
+    "low_note": "C1",
+    "high_note": "C8",
+    "low_midi": 24,
+    "high_midi": 108,
+    "midi": 0,
+    "channel": 1
+  },
+  {
+    "name": "Violins 1",
+    "low_note": "G3",
+    "high_note": "C7",
+    "low_midi": 55,
+    "high_midi": 96,
+    "midi": 0,
+    "channel": 2
+  },
+  {
+    "name": "Violins 2",
+    "low_note": "G3",
+    "high_note": "C7",
+    "low_midi": 55,
+    "high_midi": 96,
+    "midi": 0,
+    "channel": 3
+  },
+  {
+    "name": "Violas",
+    "low_note": "C3",
+    "high_note": "F6",
+    "low_midi": 48,
+    "high_midi": 89,
+    "midi": 0,
+    "channel": 4
+  },
+  {
+    "name": "Celli",
+    "low_note": "C2",
+    "high_note": "A5",
+    "low_midi": 36,
+    "high_midi": 81,
+    "midi": 0,
+    "channel": 5
+  },
+  {
+    "name": "Basses",
+    "low_note": "C1",
+    "high_note": "F3",
+    "low_midi": 24,
+    "high_midi": 53,
+    "midi": 0,
+    "channel": 6
+  },
+  {
+    "name": "Horns",
+    "low_note": "A1",
+    "high_note": "F5",
+    "low_midi": 33,
+    "high_midi": 77,
+    "midi": 0,
+    "channel": 7
+  },
+  {
+    "name": "Trumpets",
+    "low_note": "E3",
+    "high_note": "D6",
+    "low_midi": 52,
+    "high_midi": 86,
+    "midi": 0,
+    "channel": 8
+  },
+  {
+    "name": "Tenor Trombones",
+    "low_note": "G1",
+    "high_note": "D5",
+    "low_midi": 31,
+    "high_midi": 74,
+    "midi": 0,
+    "channel": 9
+  },
+  {
+    "name": "Bass Trombones",
+    "low_note": "E1",
+    "high_note": "G4",
+    "low_midi": 28,
+    "high_midi": 67,
+    "midi": 0,
+    "channel": 10
+  },
+  {
+    "name": "Tuba",
+    "low_note": "D1",
+    "high_note": "E4",
+    "low_midi": 26,
+    "high_midi": 64,
+    "midi": 0,
+    "channel": 11
+  },
+  {
+    "name": "Flutes",
+    "low_note": "C4",
+    "high_note": "C7",
+    "low_midi": 60,
+    "high_midi": 96,
+    "midi": 0,
+    "channel": 12
+  },
+  {
+    "name": "Piccolo",
+    "low_note": "D5",
+    "high_note": "C8",
+    "low_midi": 74,
+    "high_midi": 108,
+    "midi": 0,
+    "channel": 13
+  },
+  {
+    "name": "Oboes",
+    "low_note": "Bb3",
+    "high_note": "F6",
+    "low_midi": 58,
+    "high_midi": 89,
+    "midi": 0,
+    "channel": 14
+  },
+  {
+    "name": "Clarinets",
+    "low_note": "D3",
+    "high_note": "E6",
+    "low_midi": 50,
+    "high_midi": 88,
+    "midi": 0,
+    "channel": 15
+  },
+  {
+    "name": "Bassons",
+    "low_note": "Bb1",
+    "high_note": "D5",
+    "low_midi": 34,
+    "high_midi": 74,
+    "midi": 0,
+    "channel": 16
+  },
+  {
+    "name": "Harp Plucks",
+    "low_note": "C1",
+    "high_note": "G#7",
+    "low_midi": 24,
+    "high_midi": 104,
+    "midi": 1,
+    "channel": 1
+  },
+  {
+    "name": "Celeste",
+    "low_note": "C3",
+    "high_note": "C8",
+    "low_midi": 48,
+    "high_midi": 108,
+    "midi": 1,
+    "channel": 2
+  },
+  {
+    "name": "Percussion",
+    "low_note": "C3",
+    "high_note": "D5",
+    "low_midi": 48,
+    "high_midi": 74,
+    "midi": 1,
+    "channel": 3
+  },
+  {
+    "name": "Tuned Percussion",
+    "low_note": "C3",
+    "high_note": "D5",
+    "low_midi": 48,
+    "high_midi": 74,
+    "midi": 1,
+    "channel": 4
+  },
+  {
+    "name": "Tubular Bells",
+    "low_note": "C#4",
+    "high_note": "G5",
+    "low_midi": 61,
+    "high_midi": 79,
+    "midi": 1,
+    "channel": 5
+  },
+  {
+    "name": "Marimba",
+    "low_note": "C2",
+    "high_note": "C7",
+    "low_midi": 36,
+    "high_midi": 96,
+    "midi": 1,
+    "channel": 6
+  },
+  {
+    "name": "Xylophone",
+    "low_note": "F4",
+    "high_note": "C8",
+    "low_midi": 65,
+    "high_midi": 108,
+    "midi": 1,
+    "channel": 7
+  },
+  {
+    "name": "Glockenspiel",
+    "low_note": "F5",
+    "high_note": "C8",
+    "low_midi": 77,
+    "high_midi": 108,
+    "midi": 1,
+    "channel": 8
+  }
+]

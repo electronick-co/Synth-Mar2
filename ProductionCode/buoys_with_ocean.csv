@@ -1,0 +1,276 @@
+Station,Lat,Lon,Elevation,Name,Owner,Program,Ocean
+13001,12.0,-23.0,0.0,NE Extension,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+13002,21.0,-23.0,0.0,NE Extension,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+13008,15.0,-38.0,0.0,Reggae,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+13009,8.0,-38.0,0.0,Lambada,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+14048,-8.0,65.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+14049,-12.0,65.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+15001,-10.0,-10.0,0.0,Gavotte,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+15002,0.0,-10.0,0.0,Java,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+15006,-6.0,-10.0,0.0,Valse,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+22101,37.23,126.02,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+22102,34.8,125.77,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+22103,34.0,127.5,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+22104,34.77,128.9,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+22105,37.53,130.0,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+22106,36.35,129.78,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+22107,33.08,126.03,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+22108,36.25,125.75,,,Korean Meteorological Administration,International Partners,Pacific Ocean Asia
+23001,0.0,81.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+23003,-2.0,81.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+23012,8.0,67.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+23013,4.0,67.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+23014,2.0,67.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+23015,0.0,67.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+23016,-2.0,67.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+23019,-4.0,65.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+31001,0.0,-35.0,0.0,Samba,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+31002,4.0,-38.0,0.0,Frevo,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+31003,-8.0,-30.0,0.0,Para?ba,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+31004,-14.0,-32.0,0.0,Salvador,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+31005,-19.0,-34.0,0.0,Espirito Santo,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+31006,4.0,-23.0,0.0,NE Extension,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+31007,0.0,-23.0,0.0,Jazz,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+41001,34.703,-72.242,0.0,EAST HATTERAS - 150 NM East of Cape Hatteras,NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41008,31.4,-80.866,0.0,"GRAYS REEF - 40 NM Southeast of Savannah, GA",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41009,28.508,-80.185,0.0,"CANAVERAL 20 NM East of Cape Canaveral, FL",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41010,28.878,-78.467,0.0,CANAVERAL EAST - 120NM East of Cape Canaveral,NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41013,33.441,-77.764,0.0,"Frying Pan Shoals, NC",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41024,33.837,-78.477,0.0,"Sunset Nearshore, NC (SUN2)",CORMP,IOOS Partners,Atlantic Ocean
+41025,35.01,-75.454,0.0,"Diamond Shoals, NC",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41029,32.803,-79.624,0.0,"Capers Nearshore, SC (CAP2)",CORMP,IOOS Partners,Atlantic Ocean
+41033,32.279,-80.406,0.0,"Fripp Nearshore, SC (FRP2)",CORMP,IOOS Partners,Atlantic Ocean
+41037,33.988,-77.362,0.0,"Wrightsville Beach Offshore, NC (ILM3)",CORMP,IOOS Partners,Atlantic Ocean
+41038,34.141,-77.715,0.0,"Wrightsville Beach Nearshore, NC (ILM2)",CORMP,IOOS Partners,Atlantic Ocean
+41040,14.536,-53.136,0.0,NORTH EQUATORIAL ONE- 470 NM East of Martinique,NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41044,21.582,-58.63,0.0,NE ST MARTIN - 330 NM NE St Martin Is,NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+41052,18.249,-64.763,0.0,"South of St. John, VI",Caribbean Integrated Coastal Ocean Observing System (CarICoos),IOOS Partners,Atlantic Ocean
+41053,18.474,-66.099,0.0,"San Juan, PR",Caribbean Integrated Coastal Ocean Observing System (CarICoos),IOOS Partners,Atlantic Ocean
+41056,18.261,-65.464,0.0,"Vieques Island, PR",Caribbean Integrated Coastal Ocean Observing System (CarICoos),IOOS Partners,Atlantic Ocean
+41065,32.802,-79.619,0.0,Capers Nearshore Waves (CAP2WAVE),CORMP,IOOS Partners,Atlantic Ocean
+41066,32.536,-79.656,0.0,CHR60,CORMP,IOOS Partners,Atlantic Ocean
+41067,32.276,-80.406,0.0,FRP2WAVE,CORMP,IOOS Partners,Atlantic Ocean
+41069,29.289,-80.803,0.0,"Ponce de Leon Inlet, FL (PNC)",CORMP,IOOS Partners,Atlantic Ocean
+41070,29.289,-80.803,0.0,Ponce de Leon Inlet Waves (PNCWAVE),CORMP,IOOS Partners,Atlantic Ocean
+41076,32.536,-79.659,0.0,CHR60WAVE,CORMP,IOOS Partners,Atlantic Ocean
+41082,35.95,-75.125,,OOI Pioneer - Mid-Atlantic Bight Central Surface Mooring,NSF Ocean Observatories Initiative,IOOS Partners,Atlantic Ocean
+41083,35.725,-74.853,0.0,OOI Mid-Atlantic Bright Southern Surface Mooring,NSF Ocean Observatories Initiative,IOOS Partners,Atlantic Ocean
+41108,33.721,-78.016,0.0,"Wilmington Harbor, NC - (200)",SCRIPPS,IOOS Partners,Atlantic Ocean
+41110,34.142,-77.715,0.0,"Masonboro Inlet, ILM2, NC (150)",CORMP,IOOS Partners,Atlantic Ocean
+41112,30.709,-81.292,0.0,"Offshore Fernandina Beach, FL (132)",SCRIPPS,IOOS Partners,Atlantic Ocean
+41113,28.4,-80.533,0.0,"Cape Canaveral Nearshore, FL (143)",SCRIPPS,IOOS Partners,Atlantic Ocean
+41114,27.552,-80.216,0.0,"Fort Pierce, FL (134)",SCRIPPS,IOOS Partners,Atlantic Ocean
+41115,18.376,-67.28,0.0,"Rincon, Puerto Rico (181)",Caribbean Integrated Coastal Ocean Observing System (CarICoos),IOOS Partners,Atlantic Ocean
+41117,29.999,-81.079,0.0,"St. Augustine, FL (194)",U.S. Army Corps of Engineers,IOOS Partners,Atlantic Ocean
+41120,35.258,-75.285,,"Cape Hatteras East, NC (250)",SCRIPPS,IOOS Partners,Atlantic Ocean
+41122,26.001,-80.096,0.0,"Hollywood Beach, FL (265)",SCRIPPS,IOOS Partners,Atlantic Ocean
+41139,20.0,-38.0,0.0,,Prediction and Research Moored Array in the Atlantic,International Partners,Atlantic Ocean
+41159,34.213,-76.949,0.0,"Onslow Bay Outer, NC (217)",CORMP,IOOS Partners,Atlantic Ocean
+42012,30.06,-87.548,0.0,"ORANGE BEACH - 44 NM SE of Mobile, AL",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+42013,27.173,-82.924,0.0,"C10 - WFS Central Buoy, 25m Isobath",COMPS (University of South Florida),IOOS Partners,Atlantic Ocean
+42019,27.908,-95.343,0.0,"FREEPORT, TX - 60 NM South of Freeport, TX",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+42020,26.97,-96.679,0.0,"CORPUS CHRISTI, TX - 60NM SSE of Corpus Christi, TX",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+42023,26.01,-83.086,0.0,"C13 - WFS South Buoy, 50m Isobath",COMPS (University of South Florida),IOOS Partners,Atlantic Ocean
+42026,25.171,-83.475,0.0,"C22 - Loop Current Pressure Point Buoy, 70m Isobath",COMPS (University of South Florida),IOOS Partners,Atlantic Ocean
+42036,28.501,-84.508,0.0,"WEST TAMPA  - 112 NM WNW of Tampa, FL",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+42057,16.973,-81.575,0.0,"Western Caribbean - 195 NM WSW of Negril, Jamaica",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+42085,17.87,-66.537,0.0,"Southeast of Ponce, PR",Caribbean Integrated Coastal Ocean Observing System (CarICoos),IOOS Partners,Atlantic Ocean
+42091,29.088,-92.505,0.0,"Trinity Shoal, LA (255)",SCRIPPS,IOOS Partners,Atlantic Ocean
+42092,27.64,-97.012,,"Aransas Pass Channel Entrance S, TX (252)","Conrad Blucher Institute (CBI) for Surveying and Science, Texas A&M University-Corpus Christi",IOOS Partners,Atlantic Ocean
+42095,24.409,-81.968,0.0,"Satan Shoal, FL (244)",U.S. Army Corps of Engineers,IOOS Partners,Atlantic Ocean
+42097,25.714,-83.65,0.0,"Pulley Ridge, FL (226)",U.S. Army Corps of Engineers,IOOS Partners,Atlantic Ocean
+44007,43.525,-70.14,0.0,"PORTLAND - 12 NM Southeast of Portland,ME",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+44008,40.496,-69.25,0.0,NANTUCKET 54 NM Southeast of Nantucket,NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+44009,38.46,-74.692,0.0,"DELAWARE BAY 26 NM Southeast of Cape May, NJ",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+44013,42.346,-70.651,0.0,"BOSTON 16 NM East of Boston, MA",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+44014,36.603,-74.837,0.0,"VIRGINIA BEACH 64 NM East of Virginia Beach, VA",NDBC,NDBC Meteorological/Ocean,Atlantic Ocean
+44029,42.523,-70.566,0.0,Buoy A01 - Massachusetts Bay,Northeastern Regional Association of Coastal Ocean Observing Systems,IOOS Partners,Atlantic Ocean
+44030,43.179,-70.426,0.0,Buoy B01 - Western Maine Shelf,Northeastern Regional Association of Coastal Ocean Observing Systems,IOOS Partners,Atlantic Ocean
+44032,43.715,-69.355,0.0,Buoy E01 - Central Maine Shelf,Northeastern Regional Association of Coastal Ocean Observing Systems,IOOS Partners,Atlantic Ocean
+44033,44.055,-68.996,0.0,Buoy F01 - Penobscot Bay,Northeastern Regional Association of Coastal Ocean Observing Systems,IOOS Partners,Atlantic Ocean
+44034,44.103,-68.112,0.0,Buoy I01 - Eastern Maine Shelf,Northeastern Regional Association of Coastal Ocean Observing Systems,IOOS Partners,Atlantic Ocean
+44041,37.211,-76.787,0.0,"Jamestown, VA",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44042,38.033,-76.335,0.0,"Potomac, MD",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44043,39.152,-76.391,0.0,"Patapsco, MD",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44056,36.2,-75.714,0.0,"Duck FRF, NC",U.S. Army Corps of Engineers,IOOS Partners,Atlantic Ocean
+44058,37.567,-76.257,0.0,"Stingray Point, VA",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44062,38.556,-76.415,0.0,"Gooses Reef, MD",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44063,38.963,-76.448,0.0,"Annapolis, MD",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44064,36.998,-76.087,0.0,"First Landing, VA",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44072,37.201,-76.266,0.0,"York Spit, VA   ",Chesapeake Bay Interpretive Buoy System (CBIBS),IOOS Partners,Atlantic Ocean
+44078,59.94,-39.52,0.0,OOI Irminger Sea Surface Mooring,NSF Ocean Observatories Initiative,IOOS Partners,Atlantic Ocean
+44079,36.175,-74.827,,OOI Mid-Atlantic Bright Northern Surface Mooring,NSF Ocean Observatories Initiative,IOOS Partners,Atlantic Ocean
+44084,38.537,-75.044,0.0,"Bethany Beach, DE (263)",SCRIPPS,IOOS Partners,Atlantic Ocean
+44085,41.387,-71.032,0.0,"Buzzards Bay, MA (260)",Woods Hole Group/NERACOOS,IOOS Partners,Atlantic Ocean
+44086,36.001,-75.421,0.0,"Nags Head, NC (243)",UNC Coastal Studies Institute,IOOS Partners,Atlantic Ocean
+44087,37.026,-76.149,0.0,"Thimble Shoal, VA (240)",U.S. Navy,IOOS Partners,Atlantic Ocean
+44088,36.612,-74.839,0.0,"Virginia Beach Offshore, VA (171)",SCRIPPS,IOOS Partners,Atlantic Ocean
+44089,37.754,-75.325,0.0,"Wallops Island, VA (224)",U.S. Army Corps of Engineers,IOOS Partners,Atlantic Ocean
+44090,41.84,-70.329,0.0,"Cape Cod Bay, MA (221)",Woods Hole Group/NERACOOS,IOOS Partners,Atlantic Ocean
+44091,39.768,-73.77,0.0,"Barnegat, NJ (209)",U.S. Army Corps of Engineers,IOOS Partners,Atlantic Ocean
+44095,35.75,-75.33,0.0,"Oregon Inlet, NC (192)",UNC Coastal Studies Institute,IOOS Partners,Atlantic Ocean
+44097,40.967,-71.124,0.0,"Block Island, RI  (154)",SCRIPPS,IOOS Partners,Atlantic Ocean
+44098,42.8,-70.171,0.0,"Jeffrey's Ledge, NH (160)",University of New Hampshire,IOOS Partners,Atlantic Ocean
+44099,36.915,-75.722,0.0,"Cape Henry, VA (147)",SCRIPPS,IOOS Partners,Atlantic Ocean
+44100,36.258,-75.593,0.0,"Duck FRF 26m, NC (430)",SCRIPPS,IOOS Partners,Atlantic Ocean
+44137,42.26,-62.03,0.0,East Scotia Slope,Environment and Climate Change Canada,International Partners,Atlantic Ocean
+44139,44.24,-57.1,0.0,Banqureau Banks,Environment and Climate Change Canada,International Partners,Atlantic Ocean
+44150,42.5,-64.02,0.0,La Have Bank,Environment and Climate Change Canada,International Partners,Atlantic Ocean
+44258,44.5,-63.4,0.0,Halifax Harbour,Environment and Climate Change Canada,International Partners,Atlantic Ocean
+44488,45.44,-60.95,0.0,East of Chedabucto Bay,Environment and Climate Change Canada,International Partners,Atlantic Ocean
+44489,45.49,-61.14,0.0,West Chedabucto Bay,Environment and Climate Change Canada,International Partners,Atlantic Ocean
+45001,48.061,-87.793,183.0,"MID SUPERIOR- 60 NM North Northeast Hancock, MI",NDBC,NDBC Meteorological/Ocean,
+45002,45.344,-86.411,176.0,NORTH MICHIGAN- Halfway between North Manitou and Washington Islands.,NDBC,NDBC Meteorological/Ocean,
+45013,43.1,-87.85,176.0,"ATW20 - Atwater Park, WI",University of Wisconsin-Milwaukee,IOOS Partners,
+45022,45.404,-85.088,176.0,"Little Traverse Bay Buoy, MI",University of Michigan CILER,IOOS Partners,
+45023,47.27,-88.607,183.0,"North Entry Buoy, North Keweenaw Peninsula, MI",Michigan Technological University,IOOS Partners,
+45024,43.977,-86.56,176.0,"Ludington Buoy, MI",University of Michigan CILER,IOOS Partners,
+45025,46.969,-88.398,183.0,"South Entry Buoy, South Keweenaw Peninsula, MI",Michigan Technological University,IOOS Partners,
+45026,41.982,-86.619,176.0,"Cook Nuclear Plant Buoy, Stevensville, MI",Limno Tech,IOOS Partners,
+45027,46.86,-91.93,183.0,"McQuade Harbor Nearshore, MN","University of Minnesota, Duluth",IOOS Partners,
+45029,42.9,-86.272,176.0,"Holland Buoy, MI",Limno Tech,IOOS Partners,
+45132,42.46,-81.22,174.0,Port Stanley,Environment and Climate Change Canada,International Partners,
+45135,43.78,-76.87,75.0,Prince Edward Pt,Environment and Climate Change Canada,International Partners,
+45136,48.54,-86.95,183.0,Slate Island,Environment and Climate Change Canada,International Partners,
+45137,45.54,-81.02,177.0,Georgian Bay,Environment and Climate Change Canada,International Partners,
+45139,43.25,-79.53,75.0,West Lake Ontario - Grimsby,Environment and Climate Change Canada,International Partners,
+45140,50.8,-96.73,217.0,Lake Winnipeg S. Basin,Environment and Climate Change Canada,International Partners,
+45141,61.18,-115.31,156.0,Great Slave Lake,Environment and Climate Change Canada,International Partners,
+45142,42.74,-79.29,174.0,Port Colborne,Environment and Climate Change Canada,International Partners,
+45143,44.94,-80.627,177.0,South Georgian Bay,Environment and Climate Change Canada,International Partners,
+45144,53.23,-98.29,217.0,Lake Winnipeg North,Environment and Climate Change Canada,International Partners,
+45147,42.43,-82.68,175.0,Lake St Clair,Environment and Climate Change Canada,International Partners,
+45148,49.65,-94.5,332.0,Lake of the Woods,Environment and Climate Change Canada,International Partners,
+45149,43.54,-82.08,177.0,Southern Lake Huron,Environment and Climate Change Canada,International Partners,
+45150,61.98,-114.13,156.0,"Great Slave Lake, North Arm",Environment and Climate Change Canada,International Partners,
+45151,44.5,-79.37,219.0,Lake Simcoe,Environment and Climate Change Canada,International Partners,
+45152,46.23,-79.72,196.0,Lake Nipissing,Environment and Climate Change Canada,International Partners,
+45154,46.05,-82.64,177.0,North Channel East,Environment and Climate Change Canada,International Partners,
+45159,43.77,-78.98,75.0,NW Lake Ontario Ajax,Environment and Climate Change Canada,International Partners,
+45161,43.185,-86.352,176.0,"Muskegon Buoy, MI",GLERL,IOOS Partners,
+45162,44.99,-83.271,176.0,"Thunder Bay Buoy, Alpena, MI",GLERL,IOOS Partners,
+45163,43.984,-83.597,176.0,"Saginaw Bay Buoy, MI",GLERL,IOOS Partners,
+45164,41.748,-81.698,174.2,"Cleveland Buoy, OH",Limno Tech,IOOS Partners,
+45165,41.702,-83.261,174.0,"Toledo Water Intake Buoy, Oregon, OH",Limno Tech,IOOS Partners,
+45168,42.397,-86.331,177.0,"South Haven Buoy, MI",Limno Tech,IOOS Partners,
+45170,41.755,-86.968,177.0,"Michigan City Buoy, IN",Illinois-Indiana Sea Grant and Purdue Civil Engineering,IOOS Partners,
+45174,42.135,-87.655,176.0,"Wilmette Buoy, IL",llinois-Indiana Sea Grant,IOOS Partners,
+45175,45.825,-84.772,176.0,"Mackinac Straits West, Mackinaw City, MI ",Michigan Technological University,IOOS Partners,
+45176,41.55,-81.765,174.0,"Cleveland Intake Crib Buoy, OH",Limno Tech,IOOS Partners,
+45178,44.603,-73.394,30.0,"1 NM SE of Valcour Island, NY",SUNY Plattsburgh Center for Earth and Environmental Science/Lake Champlain Research Institute,IOOS Partners,
+45186,42.368,-87.795,176.0,"Waukegan Buoy, IL",University of Illinois at Urbana-Champaign,IOOS Partners,
+45187,42.491,-87.779,176.0,"Winthrop Harbor Buoy, IL",University of Illinois at Urbana-Champaign,IOOS Partners,
+45194,45.804,-84.792,177.43,"McGulpin Point North, MI (253)",Michigan Technological University,IOOS Partners,
+45196,41.521,-81.88,174.0,"Rocky River, OH",Limno Tech,IOOS Partners,
+45198,41.892,-87.563,176.0,Chicago Buoy,Illinois-Indiana Sea Grant and Purdue Civil Engineering,IOOS Partners,
+45199,42.702,-87.647,176.0,Salmon Unlimited Wisconsin,Salmon Unlimited Wisconsin,IOOS Partners,
+45200,41.724,-83.37,174.0,Maumee Bay Buoy,Cleveland Water Alliance,IOOS Partners,
+45201,41.601,-82.781,174.0,Erie Islands Buoy,Cleveland Water Alliance,IOOS Partners,
+45202,41.532,-82.941,174.0,Port Clinton Buoy,Cleveland Water Alliance,IOOS Partners,
+45203,41.393,-82.512,174.0,Huron Buoy,Cleveland Water Alliance,IOOS Partners,
+45204,41.508,-82.115,174.0,Sheffield Buoy,Cleveland Water Alliance,IOOS Partners,
+45205,41.501,-81.748,174.0,Edgewater Beach Buoy,Cleveland Water Alliance,IOOS Partners,
+45206,41.585,-81.583,174.0,Euclid Beach Buoy,Cleveland Water Alliance,IOOS Partners,
+45207,41.725,-81.37,174.0,Fairport Harbor Buoy,Cleveland Water Alliance,IOOS Partners,
+45208,41.908,-80.813,174.0,Ashtabula Buoy,Cleveland Water Alliance,IOOS Partners,
+45209,43.129,-82.391,176.0,"Lakeport Buoy, MI",Great Lakes Water Authority,IOOS Partners,
+45210,44.055,-87.05,0.0,"Rawley Point East, WI (269)",SCRIPPS,IOOS Partners,
+45211,46.973,-86.568,,"Grand Island North, MI (268)",SCRIPPS,IOOS Partners,
+45215,43.501,-76.539,,"Oswego, NY (274)",SCRIPPS,IOOS Partners,
+45216,46.932,-89.349,183.0,"Ontonagon, MI",Michigan Technological University,IOOS Partners,
+45218,43.731,-87.624,176.0,"Wisconsin Shipwreck Coast NMS / Sheboygan, WI","University of Wisconsin-Madison, Division of Extension",IOOS Partners,
+45219,47.021,-91.625,183.0,Two Harbors Nearshore Buoy,"University of Minnesota, Duluth",IOOS Partners,
+46001,56.296,-148.027,0.0,"WESTERN GULF OF ALASKA  - 175NM SE of Kodiak, AK",NDBC,NDBC Meteorological/Ocean,Pacific Ocean America
+46006,40.764,-137.377,0.0,"SOUTHEAST PAPA - 600NM West of Eureka, CA",NDBC,NDBC Meteorological/Ocean,Pacific Ocean America
+46036,48.36,-133.94,0.0,South Nomad,Environment and Climate Change Canada,International Partners,Pacific Ocean America
+46066,52.765,-155.009,0.0,"SOUTH KODIAK - 310NM SSW of Kodiak, AK",NDBC,NDBC Meteorological/Ocean,Pacific Ocean America
+46070,55.05,175.261,0.0,"SOUTHWEST BERING SEA - 142NM NNE OF ATTU IS, AK",NDBC,NDBC Meteorological/Ocean,Pacific Ocean Asia
+46072,51.645,-172.145,0.0,CENTRAL ALEUTIANS 230 NM SW Dutch Harbor,NDBC,NDBC Meteorological/Ocean,Pacific Ocean America
+46073,55.008,-172.012,0.0,"SOUTHEAST BERING SEA - 205 NM WNW of Dutch Harbor, AK",NDBC,NDBC Meteorological/Ocean,Pacific Ocean America
+46087,48.493,-124.727,0.0,"Neah Bay - 6 NM North of Cape Flattery, WA (Traffic Separation Lighted Buoy)",NDBC,NDBC Meteorological/Ocean,Pacific Ocean America
+46088,48.332,-123.179,0.0,"NEW DUNGENESS - 17 NM NE of Port Angeles, WA",NDBC,NDBC Meteorological/Ocean,
+46092,36.751,-122.029,0.0,MBM1,MBARI,IOOS Partners,Pacific Ocean America
+46097,44.639,-124.304,0.0,OOI Newport Shelf,NSF Ocean Observatories Initiative,IOOS Partners,Pacific Ocean America
+46098,44.378,-124.947,0.0,OOI Waldport Offshore,NSF Ocean Observatories Initiative,IOOS Partners,Pacific Ocean America
+46099,46.988,-124.567,0.0,OOI Westport Shelf,NSF Ocean Observatories Initiative,IOOS Partners,Pacific Ocean America
+46108,59.598,-151.828,0.0,Lower Cook Inlet (204),Alaska Ocean Observing System,IOOS Partners,Pacific Ocean America
+46121,47.28,-122.73,0.0,"Carr Inlet, WA (U of Wash) ",University of Washington,IOOS Partners,
+46123,47.375,-123.008,0.0,"Twanoh - Hood Canal, WA (U of Wash)",University of Washington,IOOS Partners,
+46125,47.907,-122.627,0.0,"Hansville - Hood Canal, WA",University of Washington,IOOS Partners,
+46131,49.91,-124.98,0.0,Sentry Shoal,Environment and Climate Change Canada,International Partners,
+46132,49.78,-127.89,0.0,South Brooks,Environment and Climate Change Canada,International Partners,Pacific Ocean America
+46145,54.37,-132.42,0.0,Central Dixon Entrance Buoy,Environment and Climate Change Canada,International Partners,Pacific Ocean America
+46146,49.34,-123.73,0.0,Halibut Bank,Environment and Climate Change Canada,International Partners,
+46147,51.83,-131.22,0.0,South Moresby,Environment and Climate Change Canada,International Partners,Pacific Ocean America
+46181,53.83,-128.83,0.0,Nanakwa Shoal,Environment and Climate Change Canada,International Partners,
+46185,52.42,-129.79,0.0,South Hecate Strait,Environment and Climate Change Canada,International Partners,Pacific Ocean America
+46205,54.18,-134.32,0.0,West Dixon Entrance,Environment and Climate Change Canada,International Partners,Pacific Ocean America
+46206,48.84,-126.0,0.0,La Perouse Bank,Environment and Climate Change Canada,International Partners,Pacific Ocean America
+46213,40.292,-124.748,0.0,"Cape Mendocino, CA (094)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46214,37.937,-123.463,0.0,"Point Reyes, CA (029)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46215,35.204,-120.859,0.0,"Diablo Canyon, CA (076)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46218,34.452,-120.78,0.0,"Harvest, CA (071)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46219,33.226,-119.891,0.0,"San Nicolas Island, CA (067)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46221,33.86,-118.641,0.0,"Santa Monica Bay, CA (028)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46222,33.618,-118.317,0.0,"San Pedro, CA (092)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46224,33.178,-117.472,0.0,"Oceanside Offshore, CA (045)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46225,32.933,-117.391,0.0,"Torrey Pines Outer, CA (100)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46229,43.772,-124.549,0.0,"UMPQUA OFFSHORE, OR (139)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46232,32.517,-117.425,0.0,"Point Loma South, CA  (191)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46235,32.57,-117.169,,"Imperial Beach Nearshore, CA (155)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46237,37.788,-122.634,0.0,"San Francisco Bar, CA  (142)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46239,36.335,-122.104,0.0,"Point Sur, CA (157)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46240,36.626,-121.907,0.0,"Cabrillo Point, Monterey Bay, CA  (158)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46243,46.214,-124.126,0.0,"Clatsop Spit, OR (162)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46244,40.896,-124.357,0.0,"Humboldt Bay, North Spit, CA (168)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46246,50.042,-145.17,0.0,Ocean Station PAPA  (166),"APL-UW, University of Washington Applied Physics Laboratory",IOOS Partners,Pacific Ocean America
+46248,46.133,-124.64,0.0,"Astoria Canyon, OR  (179)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46251,33.769,-119.565,0.0,"Santa Cruz Basin, CA (203)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46253,33.576,-118.181,0.0,"San Pedro South, CA (213)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46254,32.868,-117.267,0.0,"SCRIPPS Nearshore, CA (201)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46256,33.7,-118.201,0.0,"Long Beach Channel, CA (215)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46258,32.749,-117.502,0.0,"Mission Bay West, CA (220)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46259,34.767,-121.498,0.0,"Santa Lucia Escarpment, CA (222)",U.S. Army Corps of Engineers,IOOS Partners,Pacific Ocean America
+46266,32.957,-117.279,0.0,"Del Mar Nearshore, CA (153)",U.S. Army Corps of Engineers,IOOS Partners,Pacific Ocean America
+46267,48.173,-123.607,0.0,"Angeles Point, WA (248)",SCRIPPS,IOOS Partners,
+46268,34.022,-118.578,0.0,"Topanga Nearshore, CA (103)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46273,32.93,-117.274,0.0,"Torrey Pines Inner, CA (101)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46274,33.062,-117.314,,"Leucadia Nearshore, CA (262)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46275,33.291,-117.501,0.0,"Red Beach Nearshore, CA (264)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46276,36.845,-121.825,0.0,"Pajaro Beach, CA (266)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46277,33.336,-117.659,0.0,"Green Beach Offshore, CA (271)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46278,45.561,-123.991,0.0,"Tillamook Bay South Jetty, OR (270)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46279,36.838,-121.82,0.0,"Pajaro Beach South, CA (267)",SCRIPPS,IOOS Partners,Pacific Ocean America
+46280,44.575,-124.234,0.0,Newport PWS North (277),National Renewable Energy Laboratory,IOOS Partners,Pacific Ocean America
+46281,44.559,-124.233,0.0,"Newport PWS South, OR (278)",National Renewable Energy Laboratory,IOOS Partners,Pacific Ocean America
+46282,36.951,-121.921,0.0,"Aptos Creek Nearshore, CA 275",SCRIPPS,IOOS Partners,Pacific Ocean America
+46304,49.3,-123.36,0.0,Entrance To English Bay,Environment and Climate Change Canada,International Partners,
+48400,50.055,-144.873,0.0,Ocean Climate Station Papa,NOAA/PMEL,IOOS Partners,Pacific Ocean America
+51001,24.451,-162.008,,"NORTHWESTERN HAWAII ONE - 188 NM NW of Kauai Island, HI",NDBC,NDBC Meteorological/Ocean,Pacific Ocean America
+51201,21.671,-158.118,0.0,"Waimea Bay, HI (106)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51202,21.417,-157.68,0.0,"Mokapu Point, HI (098)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51205,21.018,-156.425,0.0,"Pauwela, Maui, HI (187)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51206,19.779,-154.97,0.0,"Hilo, Hawaii, HI (188)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51207,21.477,-157.752,0.0,"Kaneohe Bay, HI (198)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51208,22.285,-159.574,0.0,"Hanalei, Kauai, HI (202)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51209,-14.273,-170.501,0.0,"Aunuu, American Samoa (189)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51210,21.477,-157.757,0.0,"Kaneohe Bay, WETS, HI (225)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51211,21.297,-157.959,0.0,"Pearl Harbor Entrance, HI (233)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51212,21.323,-158.149,0.0,"Barbers Point, Kalaeloa, HI (238)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51213,20.75,-157.002,0.0,"Kaumalapau Southwest, Lanai, HI (239)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51214,-14.296,-170.875,0.0,"King-Poloa, American Samoa (273)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean America
+51wh0,22.0,-157.0,0.0,WHOTS - Woods Hole Ocean Time-series,Woods Hole Oceanographic Institution,IOOS Partners,Pacific Ocean America
+52202,13.683,144.816,0.0,"Ritidian Point, Guam (196)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean Asia
+52211,15.268,145.662,0.0,"Tanapag, Saipan, NMI (197)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean Asia
+52212,7.63,134.671,0.0,"Ngaraard, Babeldaob, Palau (219)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean Asia
+52213,7.081,158.244,0.0,"North Point, Pohnpei, Micronesia (178)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean Asia
+52215,5.241,163.001,0.0,"UTWE, KOSRAE, MICRONESIA (276)",Pacific Islands Ocean Observing System,IOOS Partners,Pacific Ocean Asia
+53056,-5.0,95.0,0.0,,Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction,International Partners,Indian Ocean
+62050,50.0,-4.4,,E1,UK Met Office,International Partners,Atlantic Ocean
+62081,51.0,-13.55,0.0,K2 Buoy,UK Met Office,International Partners,Atlantic Ocean
+62105,55.41,-11.81,0.0,K4 Buoy,UK Met Office,International Partners,Atlantic Ocean
+62163,47.55,-8.47,0.0,Brittany Buoy,UK Met Office,International Partners,Atlantic Ocean
+62442,49.0,-16.5,,Pap,UK Met Office,International Partners,Atlantic Ocean
+64045,59.15,-11.79,0.0,K5 Buoy,UK Met Office,International Partners,Atlantic Ocean
+cbcm2,39.223,-76.54,0.0,Curtis Bay Ch. Entrance (8574837),NOAA NOS PORTS,NOS/CO-OPS,Atlantic Ocean
+ssbn7,33.838,-78.484,0.0,Sunset Beach Nearshore Waves (SUN2WAVE),CORMP,IOOS Partners,Atlantic Ocean
